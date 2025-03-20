@@ -65,7 +65,19 @@ if busca in senha:
 else:
     print(f'sua senha {senha} não tem {busca}')'
 '''
+
+'''
 nome = 'willian'
 tamanNome = len(nome)+1
 print(nome[-1:-tamanNome:-1])
 print("tem " + nome[-1:])
+'''
+start = 0
+end = 10
+while start < end:
+    start += 1
+    print(start)
+
+
+
+
