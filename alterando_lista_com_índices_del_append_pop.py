@@ -42,3 +42,18 @@ del lista[-1]
 lista.insert(100, 5)
 print(lista[4])
 '''
+##############################################################
+
+'''
+#lista parte3
+lista_a = [1, 2, 3]
+lista_b = [4, 5, 6]
+
+#este metodo temos a contatenação de duas listas
+lista_c = lista_a + lista_b
+
+#este metodo trabalha diretamente na variavel da lista e faz a junção da lista a e b
+lista_a.extend(lista_b)
+print(lista_a)
+
+'''
