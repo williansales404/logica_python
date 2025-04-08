@@ -1,20 +1,5 @@
-import re
+def scopo(a, b):
 
-#cpf = '988.239.690-93'\
-    # .replace('.','').replace('-','').replace(' ',)
+    print(a + b)
 
-cpf = '988.239.690-93'
-
-cpf = re.sub(
-
-r'[^0-9]', '',
-cpf
-
-)
-
-entrada_repetida = cpf == cpf[0] * len(cpf)
-
-
-
-print(entrada_repetida)
-print(cpf)
+scopo(2, 3)
